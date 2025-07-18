@@ -1,0 +1,530 @@
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 4,
+        "fields": {
+            "year": 1968,
+            "summary": " <strong>It’s 1906.</strong> The Orion Republic stood as the dominant power of Hydra following the Grease Wars.</p><ul>\n\n<li>Incumbent NRP President will bet on his foreign policy credentials that made Orion a regional superpower with their success in the Grease Wars.</li>\n\n<li>The ERA seeks to exploit voters' concern of economic stagnation to end the NRP 16-year long grip on Orion politics through promises of renovation and change. </li></ul>\n\n<li>The UDP will try to regain their lost image of international weakness and assert their claim to the presidency once more.</li></ul>",
+            "image_url": "https://cdn.discordapp.com/attachments/1037552173808103465/1190326189315858614/IMG_20231229_231040.jpg?ex=68772666&is=6875d4e6&hm=7b29ab505a55d215a06fc167d737d303a8707413d498eea921d4442336735b9f&",
+            "winning_electoral_vote_number": 266,
+            "advisor_url": "https://cdn.discordapp.com/attachments/967669653033844787/1383779727806042202/image.png?ex=6876ed0c&is=68759b8c&hm=bfe8c81743a55fd9d457974d93cd629745a88621da02d58487164b7c1b179434",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>A. Scott Berg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0425270068/amhius20-20\" target=\"_blank\">Wilson</a></br>Arthur Link - <a href=\"B00350CVHM\" target=\"_blank\">Woodrow Wilson and the Progressive Era, 1910-1917</a></br><a href=\"https://presidentialcampaignselectionsreference.wordpress.com/overviews/20th-century/1916-overview/\" target=\"_blank\">Presidential Campaigns and Elections - 1916</a></br><a href=\"http://millercenter.org/president/biography/wilson-campaigns-and-elections\" target=\"_blank\">Woodrow Wilson's Campaigns</a></br><a href=\"http://articles.latimes.com/2005/oct/23/opinion/oe-shaffer23\" target=\"_blank\">The Great GOP Spat -- of 1916</a></br><a href=\"http://maxkade.iupui.edu/adams/chap8.html\" target=\"_blank\">German-Americans as Voters and Office-Seekers</a></br><a href=\"http://www.jstor.org/stable/1900319?seq=1#page_scan_tab_contents\">Woodrow Wilson, Irish-Americans, and the Election of 1916</a></br><a href=\"https://feminist.org/blog/index.php/2014/07/08/july-8-1916-alice-paul-pushes-presidential-nominee-to-support-suffrage/\" target=\"_blank\">July 8, 1916: Alice Paul Pushes Presidential Nominee to Support Suffrage</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1906 Orion"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 23,
+        "fields": {
+            "first_name": "Gordon Northwoode - ",
+            "last_name": "NRP",
+            "election": 4,
+            "party": "National Republican",
+            "state": "Dist. Delphinus",
+            "priority": 1,
+            "description": "<p>A strong supporter for Orionite expansionism, he had led the party to a victory in 1890 through advocating for aid towards anti-Ursan rebels in Northern Hydra.</p> <p>Politically, he must flash the success of Orion interventionism to shore up the now weary NRP defense-oriented base. He can also alternatively push for economic expansion through adopting economically liberal views to foster trade with Orion's new neighbor of the Hydrus Commonwealth. With economic concerns in the fray, the NRP must contend against the UDP, who advocates for less defense spending and more welfarism, and the ERA, who wants Orion to adapt to a more capitalistic model to resolve the stagnation that the current Orion economy faces.</p>",
+            "color_hex": "#FF2427",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://media.discordapp.net/attachments/967669653033844787/1394569217835270214/1906_NRP_candidate.png?ex=6877494b&is=6875f7cb&hm=d7bcfc3d7bc1d14abb90fec205dba8602ad3a16d3874f98f133bbfa5b7a589e9&=&format=webp&quality=lossless&width=300&height=342",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1968 election!</h3><p>In one of the great turnarounds of American politics, you have salvaged your once-wrecked political career and shed your label as a 'loser' once and for all. As it turns out, the press <em>will</em> have Nixon to kick around.</p><p>If you can end the War in Vietnam and roll back the excesses of the Great Society, you may just go down as a truly great President. Good luck working with a Democratic Congress, however...</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1968 election.</h3><p>Never has a candidate been so far ahead in a Presidential election, only to come up short. After your heartbreaking loss in 1960, it's going to take a long while for you to recover from this new defeat.</p><p>The American public will never know what might have transpired with you in the Oval Office. As it is, you are sure to enjoy a long retirement after this one...</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate holds a majority in the electoral college.</h3><p>Wallace's machinations have succeeded. The election will go to the House of Representatives where the Democrats hold a clear majority.</p><p>You do hold some cards however -- Humphrey would certainly rather make concessions to you, rather than deal with George Wallace. Perhaps you could obtain a place in his Administration, or some assurances on a policy issue of your choice.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.666,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 24,
+        "fields": {
+            "first_name": "Martin Bothy - ",
+            "last_name": "UDP",
+            "election": 4,
+            "party": "United Democratic",
+            "state": "Dist. Mintaka",
+            "priority": 2,
+            "description": "<p>The UDP had been embarassed with its passiveness on the international outlook, which usually chased the more intervention-minded voters to the NRP upon Orion's defeat by Ursa in 1842.  </p><p>However, there is more prospects to the UDP's economic outlook of advocating for welfare and smaller defense spending, bringing about a renewal to the party as the Grease Wars came to a close with a tired public, and therefore could be exploited greatly to their advantage with a peaceful period. The emergent Hydrus Commonwealth could provide a bone for the UDP to pick up voters concerned with the economy by fostering trade with Orion's new neighbor.</p>",
+            "color_hex": "#1C2B36",
+            "secondary_color_hex": "#FF6A88",
+            "is_active": 1,
+            "image_url": "https://media.discordapp.net/attachments/967669653033844787/1383318829828018186/image.png?ex=6850fe8d&is=684fad0d&hm=2066ee09e7cc0a1b00d4cf6f1cffbf7e9d5f9b8a7f177bcd82f730dd9a5ffe32&=&format=webp&quality=lossless&width=276&height=254",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1968 election!</h3><p>It looked like a hopeless case as you accepted the nomination, but you have run an outstanding campaign in the interval.</p><p>Now you must press forward with your efforts to defend the Great Society and to end the war in Vietnam. Failure in the latter case could be devastating when you seek reelection in 1972. After all, just look at what happened to the once-lustrous reputation of Lyndon Johnson over the past four years...</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1968 election.</h3><p>You may have performed admirably under trying circumstances, but it was always a tough sell for you after the chaos at the Democratic Convention in Chicago.</p><p>Your only consolation is that Nixon himself is a former loser. Even so, this is a horrednous turn of events for Democrats after the landslide of 1964. The best you can do now is to plot a comeback to the Senate, or as a candidate for President in 1972.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate achieved a majority in the electoral college.</h3><p>Fortunately for you the Democrats have won a majority of the nation's Congressional delegations. Unfortunately, you also have to deal with George Wallace. He will not allow the Southern states to support any candidate who advocates desegregation.</p><p>Your best chance, sadly, is to try to broker a deal with Nixon or with other moderate Republicans.</p><p>You are the likely winner, but who knows where this all ends?</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.7,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 25,
+        "fields": {
+            "first_name": "Patrick Hardin - ",
+            "last_name": "ERA",
+            "election": 4,
+            "party": "Enterprise Reform Alliance",
+            "state": "Dist. Venatia",
+            "priority": 3,
+            "description": "<p>The appearance of the ERA had seeked to break the stronghold of the two-party system in Orion of the UDP and NRP parties with their calls for politican and economic reformation, which will definitely gain attention of voters who are tired of the duopoly.</p><p>With the Orionite economy in doubt of stagnation, the ERA has exploited the perceived fears with their advocate for lax regulations and tax breaks which will bring Orion's economy to a new chapter. The liberal economic views of the ERA can serve to strengthen ties with the new Hydrus Commonwealth with new trade relations, additionally giving a potential boost to the Orionite economy as well.</p><p>The ERA's victory in this election therefore will represent a major social change in Orion's history.</p>",
+            "color_hex": "#F5C423",
+            "secondary_color_hex": "#000000",
+            "is_active": 1,
+            "image_url": "https://media.discordapp.net/attachments/967669653033844787/1383318936673849384/image.png?ex=6850fea7&is=684fad27&hm=84e9f0e9d2f2a22a53724e1d42f6acedbb82252c39c578cf2d2cabd3f4cbfa25&=&format=webp&quality=lossless&width=435&height=309",
+            "electoral_victory_message": "<h3>Wow! You have won the 1968 election in a shocker!</h3><p>Dixie forever! Even with the Long Hot Summer of 1967, nobody guessed that you could do well enough in the Northern states to win the election outright. You have instantly become most polarizing President-elect since Abraham Lincoln.</p>",
+            "electoral_loss_message": "<h3>Sorry, you did not prevent an electoral college majority.</h3><p>You put in a good effort, but your dream of brokering an end to desegregation will not come to fruition in 1968. No winning candidate will negotiate that point with you unless they absolutely have no choice.</p><p>The best you can do for now is continue to sound the call for a return to sanity in American politics. Perhaps if the riots and discord continue, you will have a better chance of making your voice heard in 1972.</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have deadlocked the electoral college with your votes in the South.</h3><p>In a close election, your electoral votes in the South have prevented either candidate from winning a majority. Get ready to put the squeeze on Humphrey and Nixon.</p><p>Of course, you still have to deal with the possibility that Humphrey and Nixon dislike you so much that they will simply strike a deal with each other. Whatever happens, it's sure to be interesting.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 55,
+        "fields": {
+            "first_name": "Expansionist Orion",
+            "last_name": "",
+            "election": 4,
+            "party": "National Republican",
+            "state": "Venatia",
+            "priority": 29,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://cdn.discordapp.com/attachments/1037552173808103465/1092832043202781304/IMG_20230404_205221.jpg?ex=68771b66&is=6875c9e6&hm=2f059c6f9db26398fc09200e653f0e2d03e8fd8875e91d707fed323d648c0fe8&",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Orionite imperialism since the birth of the Republic had brought about economic booms to the country and even integration from the foreign cultures who wished to be one with Orionite principles of freedom and democracy.</p><p>It would be well-advised to reform this towards a more peacenuk iteration, as the emerging Hydrusite state may be well-adapted to our Orionite values and can be integrated with us economically for further benefits of our people.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 56,
+        "fields": {
+            "first_name": "Nelson",
+            "last_name": "Rockefeller",
+            "election": 4,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 30,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/nelson-rockefeller-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Rockefeller and Nixon competed vigorously for the 1968 nomination. Rockefeller's moderate reputation and New York location could both be assets in the campaign.</p><p>By selecting Rockefeller, Nixon would dampen his chances against Wallace in the South and would need to run well against Humphrey in the big northern cities to win the election.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 44,
+        "fields": {
+            "first_name": "Ronald",
+            "last_name": "Reagan",
+            "election": 4,
+            "party": "Republican",
+            "state": "California",
+            "priority": 31,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ronald-reagan-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>The standard-bearer of the conservative Republicans, Reagan can virtually assure a victory in California, where he presides as Governor. He has taken a firm stand against protests and disorder in that state and will reinforce Nixon's credibility as a champion of good order.</p><p>However, Reagan will not help Nixon very much in the competitive Northeast and Midwest states where he must challenge Humphrey.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 58,
+        "fields": {
+            "first_name": "Edmund",
+            "last_name": "Muskie",
+            "election": 4,
+            "party": "Democrat",
+            "state": "Maine",
+            "priority": 33,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/edmund-muskie-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Muskie is a Senator from Maine, and although he has a low national profile he could help Humphrey solidify his base and carry the Northeastern states.</p><p>By going with Muskie, Humphrey would probably be writing off most of the South and also would be giving Nixon an opening among moderate voters.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 59,
+        "fields": {
+            "first_name": "Fred",
+            "last_name": "Harris",
+            "election": 4,
+            "party": "Democrat",
+            "state": "Oklahoma",
+            "priority": 34,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/fred-harris-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>A Democrat from Oklahoma, Harris could help his party make a play for some of the Southern states without alienating its liberal wing.</p><p>Harris will add very little to the campaign if he fails to deliver some states in the South, and his young age (37 years) could be alarming to some voters.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 60,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Connally",
+            "election": 4,
+            "party": "Democrat",
+            "state": "Texas",
+            "priority": 35,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-connally-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Connally was and is the Governor of Texas who was infamously wounded in the Kennedy Assassination. He would reinforce a moderate image, help deliver Texas to the ticket, and dampen the appeal of Wallace elsewhere to all but the most hard-line segregationists.</p><p>However the anti-war, liberal wing of the party will surely recoil at this selection.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 61,
+        "fields": {
+            "first_name": "Ted",
+            "last_name": "Kennedy",
+            "election": 4,
+            "party": "Democrat",
+            "state": "Massachusetts",
+            "priority": 36,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ted-kennedy-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Younger brother to John and Robert Kennedy and a staunch liberal, Ted Kennedy would be a choice if Humphrey wished to reconcile with the liberal and anti-war wing of the party.</p><p>Kennedy will not accept the nomination, however, unless Humphrey repudiates the hawkish policies of President Johnson. This could cause problems with moderates and more importantly with the Democratic establishment.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 62,
+        "fields": {
+            "first_name": "Curtis",
+            "last_name": "LeMay",
+            "election": 4,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 37,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/curtis-lemay-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>A famous (some say infamous) General in the Army for many years, LeMay is dismayed by the prospect of Richard Nixon accepting nuclear parity with the Soviet Union. He also is drawn to Wallace's message of social order.</p><p>LeMay is prone to make off the cuff remarks about the use of nuclear weapons, however, which could lead to concerns about Wallace's foreign policy vision.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 63,
+        "fields": {
+            "first_name": "Happy",
+            "last_name": "Chandler",
+            "election": 4,
+            "party": "Democrat",
+            "state": "Kentucky",
+            "priority": 38,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/happy-chandler-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>A Democratic Senator from Kentucky and former Commissioner of Major League Baseball, Chandler would give Wallace's outsider campaign some credibility.</p><p>As a conservative Democrat, Chandler supports the calls for law and order and fiscal conservatism. However, he will not stand as Wallace's running mate unless he softens his rhetoric on segregation, which in turn could alienate other Southern states.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 64,
+        "fields": {
+            "first_name": "Strom",
+            "last_name": "Thurmond",
+            "election": 4,
+            "party": "Republican",
+            "state": "South Carolina",
+            "priority": 39,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/strom-thurmond-1968.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>The most mainline Southerner among Wallace's options, Thurmond did well in his own right when running in 1948.</p><p>Thurmond's presence could help tilt the Carolinas in Wallace's direction, but it will take every ounce of Wallace's persuasive acumen to get Thurmond to agree to run.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 41,
+        "fields": {
+            "candidate": 25,
+            "running_mate": 62
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 37,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 58
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 43,
+        "fields": {
+            "candidate": 25,
+            "running_mate": 64
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 42,
+        "fields": {
+            "candidate": 25,
+            "running_mate": 63
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 40,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 61
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 39,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 60
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 38,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 59
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 33,
+        "fields": {
+            "candidate": 23,
+            "running_mate": 55
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 34,
+        "fields": {
+            "candidate": 23,
+            "running_mate": 44
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 35,
+        "fields": {
+            "candidate": 23,
+            "running_mate": 56
+        }
+    }
+]
+
+//campaignTrail_temp.credits = "PatroticSoldier1783. Art images by HandsnDeck. Worldbuilding of Forma(Centaura and Dead Ahead games on Roblox) by ClassicMasterNoob."
+campaignTrail_temp.credits = "<button onclick='credits()'>PatrioticSoldier1783 et al.</button>"
+
+credits = function() {
+credits = [ "Scenario Creator: PatrioticSoldier1783", "Art illustrations (Advisor URL/Background): HandsNDeck", "Orion Districts Map/Coding Assistance: brocketo", "The lorebuilding of Forma (CENTAURA/DEAD AHEAD games on Roblox) that made this possible: ClassicMasterNoob"]
+text = "CREDITS:\n\n"
+for (i in credits) {
+    text += credits[i] + "\n"
+}
+alert(text)
+}
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 4,
+        "candidates": [
+            23,
+            24,
+            25
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 4,
+        "candidates": [
+            23,
+            24,
+            25
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 4,
+        "year": 1968,
+        "is_premium": 0,
+        "display_year": "1906 Orion"
+    }
+]
+
+jet_data = {
+    "headerColor": "#506D54",
+    "windowColor": "#1B2A35",
+    "containerColor": "#506D54",
+    "innerWindowColor": "#F2B834", 
+    "bannerImageUrl": "https://cdn.discordapp.com/attachments/967669653033844787/1383301537459077151/latest.png?ex=687729f3&is=6875d873&hm=eedd21485f400755c7962d4ec3e180f02be29ac24be22d98f558e0714d772e7b&",
+    "backgroundImageUrl": "https://cdn.discordapp.com/attachments/1037552173808103465/1173662043388268604/IMG_20231113_233306.jpg?ex=68772bb4&is=6875da34&hm=47a795ac2c735d6568d62b8ad582a5c96192649828bfeea98b4b2bb56f1b3f54&",
+    "endingTextColor": "#FFFFFF",
+    "customQuote": "All the way with the ERA, vote for a prosperous Orion today!",
+    "gameTitle": "THE CAMPAIGN TRAIL"
+    
+}
+
+//#startcode
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"All the way with the ERA, vote for a prosperous Orion today!!" - Pat Hardin</em></font>\n            ';
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#F2B834";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#1B2A35";
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+document.getElementById("header").src = "https://media.discordapp.net/attachments/967669653033844787/1383301537459077151/latest.png?ex=686b4c73&is=6869faf3&hm=b0ff3f6aa738d1d1ff821bcb751ba41acf37edd018afd9db5a424879ab594a8f&=&format=webp&quality=lossless&width=1660&height=877";
+document.body.background = "https://media.discordapp.net/attachments/967669653033844787/1383776126178164766/IMG_20231113_233306.png?ex=686b0c31&is=6869bab1&hm=c5315670d06aba3844768da18e4a2f0e80fcb690537118543c727205bbf33be2&=&format=webp&quality=lossless&width=721&height=1030";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#506D54!important;}</style>";
+
+function addDynamicCSS(cssText) {
+  const style = document.createElement('style');
+  style.type = 'text/css';
+  style.appendChild(document.createTextNode(cssText));
+  document.head.appendChild(style);
+}
+
+addDynamicCSS(`
+  #question_form {
+    color: #062c42;
+  }
+
+  .inner_window_question {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    overflow: visible;
+    color: #ffffff;
+  }
+
+  .inner_window_question h3 {
+    background-color: #062c42;
+    border-radius: 5px;
+    box-shadow:
+      0 0 5px rgba(224, 255, 255, 0.5),
+      0 0 10px rgba(224, 255, 255, 0.3),
+      0 0 20px rgba(224, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  
+`);
+
+//#endcode
